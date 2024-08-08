@@ -1,3 +1,19 @@
+In today's world, where everything is progressing at an unprecedented speed, all people in society try to do the most work possible with the least time and cost. One of the times when a person is seriously involved in time is going to the doctor; From finding the right doctor and coordinating appointments to many other things. For this reason, a group of doctors have decided to launch a system for scheduling appointments, maintaining patient records and many other related matters. Now they ask you to design this system for them.
+
+First phase: In this phase, our goal is to accurately record and maintain the information of doctors. In this part of the project, we design a centralized medical system that provides each user, including doctors and managers, with access to a dedicated panel with facilities and features appropriate to their roles and responsibilities. These panels have the ability to provide essential facilities and features for each role.
+
+Second phase: Our goal is to add services such as appointment booking, displaying and searching for doctors based on specific features to the defined panels, as well as creating a dedicated panel for patients.
+
+Phase 3: Implement a special mechanism to improve queuing services. This mechanism should help patients to get an appointment as soon as possible. In this way, after entering the specialty and the desired city, the patient should be able to find the first empty appointment in that city for a doctor with the same specialty.
+
+The panel considered for doctors should include these basic elements: registration, login, view patient records, register doctor's appointment, cancel doctor's appointment, show appointment history, show canceled appointments.
+
+The panel that is considered for patients should include these basic elements: registration, login to the system, display of doctors, regular display of doctors, search for a doctor, make appointments, view appointment history, cancel appointments, display canceled appointments, Automatic appointment booking
+
+The panel considered for management should include these basic elements: show doctors, search doctor, show doctor by specialty, add city, add specialty, delete patient, delete doctor, display patients
+
+
+
 پروژه پایانی
 
 در دنیای امروزی که همه چیز با سرعتی بی سابقه در حال پیشرفت است، تمامی افراد جامعه می کوشند تا با کمترین زمان و هزینه، بیشترین کار ممکن
