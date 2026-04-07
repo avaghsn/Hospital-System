@@ -1,4 +1,4 @@
-from Final.tools.file_handling import File
+from tools.file_handling import File
 
 
 class Singleton(type):
@@ -12,7 +12,7 @@ class Singleton(type):
 
 class DayManager(metaclass=Singleton):
     def __init__(self):
-        self.file = File("C:\\Users\\AVA\\PycharmProjects\\pythonProject\\Data_Structure\\Final\\test_files\\Days.txt")
+        self.file = File("test_files/Days.txt")
         self.curr_day = self.load_day()
 
     def load_day(self):

@@ -1,5 +1,5 @@
-from Final.data_structures.trie import Trie
-from Final.tools.file_handling import File
+from data_structures.trie import Trie
+from tools.file_handling import File
 
 
 class Specialities:
@@ -8,7 +8,7 @@ class Specialities:
         self.load()
 
     def load(self):
-        path = "C:\\Users\\AVA\\PycharmProjects\\pythonProject\\Data_Structure\\Final\\test_files\\Specialties.txt"
+        path = "test_files/Specialties.txt"
         cities = File(path).read_line()
 
         for city in cities:
@@ -16,7 +16,7 @@ class Specialities:
             self.specialities.insert(name)
 
     def save_data(self):
-        path = "C:\\Users\\AVA\\PycharmProjects\\pythonProject\\Data_Structure\\Final\\test_files\\Specialties.txt"
+        path = "test_files/Specialties.txt"
         file = File(path)
         file.write("")
         words = self.specialities.get_all_words()

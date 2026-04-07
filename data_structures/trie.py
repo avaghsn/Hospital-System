@@ -1,5 +1,5 @@
-from Final.data_structures.hash_table import DynamicHash
-from Final.data_structures.queue import Queue
+from data_structures.hash_table import DynamicHash
+from data_structures.queue import Queue
 
 
 class TrieNode:
@@ -61,6 +61,6 @@ class Trie:
 
         for char in curr_node.children:
             child_node = curr_node.children[char]
-            self.get_all_words(child_node,prefix + char, words)
+            self.get_all_words(child_node, prefix + char, words)
 
         return words

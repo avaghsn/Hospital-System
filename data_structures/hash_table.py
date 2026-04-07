@@ -1,6 +1,7 @@
-from Final.data_structures.array import Array
-from Final.data_structures.linked_list import SLL
 import math
+
+from data_structures.array import Array
+from data_structures.linked_list import SLL
 
 
 class HashNode:

@@ -1,6 +1,7 @@
 import os
-import Final.presentation.CLI as CLI
-from Final.logic.day_manager import DayManager
+
+import presentation.CLI as CLI
+from logic.day_manager import DayManager
 
 
 class AdminCommands:

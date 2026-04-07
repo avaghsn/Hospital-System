@@ -1,11 +1,9 @@
-from Final.data_structures.hash_table import DynamicHash
-from Final.data_structures.queue import Queue
-from Final.data_structures.linked_list import SLL
-from Final.data_structures.array import DynamicArray
-
-from Final.models.doctor import Doctor
-
-from Final.tools.file_handling import File
+from data_structures.array import DynamicArray
+from data_structures.hash_table import DynamicHash
+from data_structures.linked_list import SLL
+from data_structures.queue import Queue
+from models.doctor import Doctor
+from tools.file_handling import File
 
 
 class Doctors:
@@ -19,7 +17,7 @@ class Doctors:
     # ******************************* phase 1 ******************************** #
 
     def load_data(self):
-        path = "C:\\Users\\AVA\\PycharmProjects\\pythonProject\\Data_Structure\\Final\\test_files\\Doctors.txt"
+        path = "test_files/Doctors.txt"
         lines = File(path).read_line()
         for line in lines:
             line = line.replace("\n", "")
@@ -32,7 +30,7 @@ class Doctors:
                                  speciality, password)
 
     def save_data(self):
-        path = "C:\\Users\\AVA\\PycharmProjects\\pythonProject\\Data_Structure\\Final\\test_files\\Doctors.txt"
+        path = "test_files/Doctors.txt"
         file = File(path)
         file.write("")
         for ids in self.doctors:

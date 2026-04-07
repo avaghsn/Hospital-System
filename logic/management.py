@@ -1,6 +1,6 @@
-from Final.data_structures.array import Array
-from Final.tools.sorts import insertion_sort
-from Final.logic.day_manager import DayManager
+from data_structures.array import Array
+from logic.day_manager import DayManager
+from tools.sorts import insertion_sort
 
 
 class Manage:

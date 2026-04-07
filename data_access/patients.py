@@ -1,10 +1,10 @@
-from Final.data_structures.hash_table import DynamicHash
-from Final.data_structures.heap import MinHeap
+from data_structures.hash_table import DynamicHash
+from data_structures.heap import MinHeap
 
-from Final.models.appointment import Node
-from Final.models.patient import Patient
+from models.appointment import Node
+from models.patient import Patient
 
-from Final.tools.file_handling import File
+from tools.file_handling import File
 
 
 class Patients:
@@ -20,7 +20,7 @@ class Patients:
         return self.patients[national_id]
 
     def load_data(self):
-        path = "C:\\Users\\AVA\\PycharmProjects\\pythonProject\\Data_Structure\\Final\\test_files\\Patients.txt"
+        path = "test_files/Patients.txt"
         lines = File(path).read_line()
         for line in lines:
             line = line.replace("\n", "")
@@ -32,7 +32,7 @@ class Patients:
             self.register_patient(first_name, last_name, national_id, phone_num, password, gender, city, insurance_num)
 
     def save_data(self):
-        path = "C:\\Users\\AVA\\PycharmProjects\\pythonProject\\Data_Structure\\Final\\test_files\\Patients.txt"
+        path = "test_files/Patients.txt"
         file = File(path)
         file.write("")
         for ids in self.patients:

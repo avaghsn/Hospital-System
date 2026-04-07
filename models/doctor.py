@@ -1,8 +1,8 @@
-from Final.data_structures.array import Array
-from Final.data_structures.hash_table import DynamicHash
-from Final.data_structures.queue import Queue
-from Final.logic.day_manager import DayManager
-from Final.tools.sorts import insertion_sort2
+from data_structures.array import Array
+from data_structures.hash_table import DynamicHash
+from data_structures.queue import Queue
+from logic.day_manager import DayManager
+from tools.sorts import insertion_sort2
 
 
 class Doctor:

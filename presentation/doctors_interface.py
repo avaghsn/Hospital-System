@@ -1,5 +1,5 @@
-from Final.data_structures.queue import Queue
-from Final.logic.day_manager import DayManager
+from data_structures.queue import Queue
+from logic.day_manager import DayManager
 
 
 class DoctorsInterface:

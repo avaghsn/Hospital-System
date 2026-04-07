@@ -1,4 +1,4 @@
-from Final.data_structures.array import DynamicArray
+from data_structures.array import DynamicArray
 
 
 class MaxHeap:
